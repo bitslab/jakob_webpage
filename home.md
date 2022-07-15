@@ -40,7 +40,7 @@ I am currently advising five PhD students:
 
 # mixed bag of goodies
 
-My [North American English](../english) tips for recent arrivals from India, Pakistan and Bangladesh. A morbidly fascinating history of [UIC's campus architecture](https://advance.uic.edu/news-stories/the-netsch-campus-exploring-the-evolution-of-uics-architecture/). 
+My [North American English](../english) tips for recent arrivals from India, Pakistan and Bangladesh. A morbidly fascinating history of [UIC's campus architecture](https://advance.uic.edu/news-stories/the-netsch-campus-exploring-the-evolution-of-uics-architecture/). If you're a UIC faculty member and want a web page just like mine, I made the for this web page available [on github](https://github.com/bitslab/jakob_webpage). Just fork the repo, edit the contents, and you're good to go. 
 
 # about me 
 I grew up in Sweden, and I have three children together with my wife [Natasha Devroye](http://devroye.lab.uic.edu), who is also a professor at UIC. When I am not working on playing with the kids, I enjoy long trips to far-away destinations, tending my extensive edible garden, reading science fiction and [churning credit cards](https://www.doctorofcredit.com/introduction-credit-card-churning/) for free business class tickets. 
