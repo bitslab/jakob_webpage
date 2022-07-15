@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .black {
+    color: #000000;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply mt-5 uppercase font-bold ;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  li {
+    @apply ml-5 list-disc
+  }
+  ul {
+    @apply m-4 text-left
+  }
+  hr {
+    @apply my-5
+  }
+  a {
+    @apply hover:underline font-semibold
+  }
+}
