@@ -11,8 +11,8 @@
   </head>
   <body class="bg-uicblue">
     <div class="bg-uicblue grid place-items-center">
-      <div id="main-panel" class="relative bg-white max-w-lg pb-10">
-        <div id="top-bar" class="fixed z-10 text-uicblue max-w-lg justify-between items-end p-2 flex flex-row text-center uppercase font-medium bg-white text-sm w-full">
+      <div id="main-panel" class="relative bg-white max-w-4xl pb-10">
+        <div id="top-bar" class="fixed z-10 text-uicblue max-w-4xl justify-between items-end p-2 flex flex-row text-center uppercase font-medium bg-white w-full">
           <a id="logo-link" class="basis-1/3" href="https://www.uic.edu/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358.3167 68.6566">
               <title>University of Illinois Chicago</title>
@@ -55,21 +55,21 @@
                 </g>
               </svg>
             </a>
-            <a class="shrink text-xs" href="../home/index.html">home</a>
-            <a class="shrink text-xs" href="../projects/index.html">projects</a> 
-            <a class="shrink text-xs" href="../news/index.html">news</a>
-            <a class="shrink text-xs" href="../home/index.html#contact">contact</a>
+            <a class="shrink text-sm" href="../home/index.html">home</a>
+            <a class="shrink text-sm" href="../projects/index.html">projects</a> 
+            <a class="shrink text-sm" href="../news/index.html">news</a>
+            <a class="shrink text-sm" href="../home/index.html#contact">contact</a>
           </div>
-        <div id="portrait-group" class="relative max-w-lg mb-4">
-          <div id="portrait" style="background-image: url({{photo|default(defaults.portrait)}});" class="object-contain h-96 bg-cover">&nbsp;</div>
+        <div id="portrait-group" class="relative max-w-4xl mb-4">
+          <div id="portrait" style="background-image: url({{photo|default(defaults.portrait)}});" class="object-contain h-[50vh] bg-cover">&nbsp;</div>
           <img id="circlemark" class="absolute bottom-0 left-6 w-24" src="../circle.svg"/>
-          <div id="name-title" class="relative mr-5 text-right w" style="line-height: 12px">
+          <div id="name-title" class="relative mr-5 text-right" style="line-height: 12px">
             <span class="font-bold text-lg">{{name|default(defaults.name)}}</span><br/>
-            <span class="text-small font-normal"> {{title|default(defaults.title)}}</span>
+            <span class="text-base font-normal"> {{title|default(defaults.title)}}</span>
             </div>
           </div>
 
-        <div id="content" class="text-justify mx-8 text-sm">      
+        <div id="content" class="text-justify mx-8 text-base">      
           {{ content | safe }}
           </div>
         </div>
