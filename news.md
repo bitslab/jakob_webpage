@@ -1,7 +1,7 @@
 ---
-layout: default.njk
-name: Jakob Eriksson
-title: Assoc. Professor
+name: Prof. Jakob Eriksson
+title: Struggling News Editor
+photo: ../photos/portrait2.jpg
 ---
 
 # open PhD positions
