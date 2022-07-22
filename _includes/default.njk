@@ -11,7 +11,7 @@
   </head>
   <body class="bg-uicblue">
     <div class="bg-uicblue grid place-items-center">
-      <div id="main-panel" class="relative bg-white max-w-4xl pb-10">
+      <div id="main-panel" class="shadow-inner shadow-2xl relative bg-white max-w-4xl pb-10">
         <div id="top-bar" class="fixed z-10 text-uicblue max-w-4xl justify-between items-end p-2 flex flex-row text-center uppercase font-medium bg-white w-full">
           <a id="logo-link" class="basis-1/3" href="https://www.uic.edu/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358.3167 68.6566">
@@ -74,5 +74,11 @@
           </div>
         </div>
       </div>
+      <script>
+       var startE=0;
+       document.getElementById('portrait').addEventListener('touchstart', e=>{startE=e.changedTouches[0].screenX;});
+       document.getElementById('portrait').addEventListener('touchend', e=>{ if(e.changedTouches[0].screenX < startE) {
+        document.getElementById('portrait').style.backgroundImage = "url('../photos/family.jpg')";}});
+      </script>
   </body>
 </html>

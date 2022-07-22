@@ -25,6 +25,6 @@
     @apply my-5
   }
   a {
-    @apply hover:underline font-semibold
+    @apply hover:underline font-semibold text-uicblue
   }
 }
